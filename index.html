@@ -112,8 +112,13 @@
   color: white;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1200px){
 	.hero-text {
+		float: left;
+		display: block;
+		text-align: left;}
+	}
+	.responsive {
 		float: left;
 		display: block;
 		text-align: left;}
@@ -121,6 +126,13 @@
 }
 
 @media screen and (max-width: 500px){
+	.hero-text {
+		float: left;
+		display: block;
+		text-align: left;}
+	}
+
+
 	.responsive {
 		float: left;
 		display: block;
@@ -161,13 +173,13 @@
 	<!--END OF HEADER------------------------------------------------------------------------------------------------>
 
 	<section id="about" id="#about"> <!--SECTION 1 - Company Details------------------------------->
-		<div class="responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(headerbackground.jpg);
+		<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(headerbackground.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative; background-color: #7a7878;">
-  		<div class="hero-text" style="color: white; text-align: center;">
+  		<div style="color: white; text-align: center;">
     		<h1 style="font-size:40px">Add details about your Company</h1>
     		<p>Here you can add descriptions of your products/services etc...</p>
   		</div>
@@ -178,13 +190,13 @@
 	
 	
 	<section id="shop" id="#shop"> <!--SECTION 2 - Product Images---------------------------------------------->
-		<div class="responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+		<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative; background-color: #7a7878;">
-  		<div class="hero-text" style="color: white; text-align: center;">
+  		<div style="color: white; text-align: center;">
     		<h1 style="font-size:40px; padding-top: 10px; height: 50vh;">Add Images of your products</h1>
     		<p>You can also add animation to your images like below, the images shake when you hover over them...</p>
     		<a href=""><img src="headerbackground.jpg" style="width: 160px; padding: 15px;"/></a>
