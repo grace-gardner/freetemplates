@@ -65,7 +65,7 @@
 @media screen and (max-width: 1200px) {
   .header a {
     float: none;
-    display: inline-block;
+    display: block;
     text-align: left;
   }
   
@@ -111,10 +111,24 @@
   background-color: #555;
   color: white;
 }
-.responsive {
-  max-width: 100%;
-  height: auto;
+
+@media screen and (max-width: 500px){
+	.hero-text {
+		float: left;
+		display: block;
+		text-align: left;}
+	}
 }
+
+@media screen and (max-width: 500px){
+	.responsive {
+		float: left;
+		display: block;
+		text-align: left;}
+	}
+}
+
+
 
 .div-content{
 	display: flex;
@@ -130,7 +144,7 @@
 
 </style>
 <body>
-	<header id="home" id="#home">
+	<header id="home" id="#homepage">
 		<div class="header">
   			<img src="logo.jpg" style="width: 160px;"/>
   			<span style="font-size: 40px;">GardnerJewellery</span>
@@ -171,7 +185,7 @@
   background-size: contain;
   position: relative; background-color: #7a7878;">
   		<div class="hero-text" style="color: white; text-align: center;">
-    		<h1 style="font-size:40px; padding-top: 10px;">Add Images of your products</h1>
+    		<h1 style="font-size:40px; padding-top: 10px; height: 50vh;">Add Images of your products</h1>
     		<p>You can also add animation to your images like below, the images shake when you hover over them...</p>
     		<a href=""><img src="headerbackground.jpg" style="width: 160px; padding: 15px;"/></a>
     		<a href=""><img src="headerbackground.jpg" style="width: 160px; padding: 15px;"/></a>
