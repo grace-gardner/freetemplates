@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <title>Template 1</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://kit.fontawesome.com/fd14e678e6.js" crossorigin="anonymous"></script>
 <style>
 	img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -114,10 +115,19 @@ h1, p {
 }
 
 .footer-menu a:hover{
-	color: #4d0b4d;
+	color: #1e2bbd;
 	
 
 }
+
+.social-menu a{
+	padding: 10px;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.social-menu a:hover{
+	background-color: #1e2bbd;
 }
 
 
@@ -269,7 +279,7 @@ h1, p {
 	<section style="height: 1px;"></section>
 
 	<footer style="background-color: #f5c4ed; color: dimgrey; font-size: 14px;">
-		<div>
+		<div class="div-content">
 			<div class="row">
 				<ul class="footer-menu" style="list-style-type: none; float: left; margin: 15px 0; padding: 0;">
 					<li style="float: left; margin: 5px 8px;">
@@ -284,23 +294,22 @@ h1, p {
 				</ul>
 
 
-				<ul class="social-menu">
-					<li>
-						<a href="#" target="_blank" title="Facebook"></a>
+				<ul class="social-menu" style="float: right; padding: 0; list-style-type: none; margin: 7px 0;">
+					<li style="float: left; margin: 0 2px;">
+						<a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-square" style="color: dimgrey;"></i></a>
+						
 					</li>
-					<li>
-						<a href="#" target="_blank" title="Instagram"></a>
+					<li style="float: left; margin: 0 2px;">
+						<a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram-square" style="color: dimgrey;"></i></a>
+							
 					</li>
-					<li>
-						<a href="#" target="_blank" title="Tweeter"></a>
+					<li style="float: left; margin: 0 2px;">
+						<a href="#" target="_blank" title="Tweeter"><i class="fab fa-twitter-square" style="color: dimgrey;"></i></a>
+							
 					</li>
 				</ul>
-				<p>&copy;2021 GardnerJewellery. All rights reserved.</p>
 			</div>
-					
-				
-				
-			</div>
+			<p>Copyright</p>
 		</div>
 	</footer>
 	
