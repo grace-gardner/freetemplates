@@ -107,6 +107,16 @@ h1, p {
 	color: black;
 }
 
+@media screen and (max-width: 1000px){
+	.column {
+	    -ms-flex: 100%;
+	    flex: 100%;
+	    max-width: 100%;
+	    float: left;
+	    display: block;
+  }
+}
+
 .footer-menu a{
 	text-decoration: none; 
 	color: #403e40; 
@@ -162,8 +172,8 @@ h1, p {
 <body>
 	<header id="home" id="#homepage" style="background-color: #fae1f6">
 		<div class="header">
-  			<img src="https://grace-gardner.github.io/template1/logo.jpg" style="width: 160px;"/>
-  			<span style="font-size: 40px;">GardnerJewellery</span>
+  			<img src="https://grace-gardner.github.io/template1/logo.jpg" style="width: 60px;"/>
+  			<span style="font-size: 20px;">GardnerJewellery</span>
 
   			
   		<div class="header-right">
@@ -177,17 +187,22 @@ h1, p {
 	<!--END OF HEADER------------------------------------------------------------------------------------------------>
 
 	<section id="about" id="#about"> <!--SECTION 1 - Company Details------------------------------->
-		<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://grace-gardner.github.io/template1/headerbackground.jpg);
+		<div class="div-content" style="background-color: #7a7878;">
+			<div style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://grace-gardner.github.io/template1/headerbackground.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative; background-color: #7a7878;">
-  		<div style="color: white; text-align: center;">
+  		<div class="div-content" style="color: white; text-align: center;">
     		<h2 style="font-size:40px">Add details about your Company</h2>
-    		<h3>Here you can add descriptions of your products/services etc...</h3>
-  		</div>
+    	</div>
+    	<div class="div-content">
+    		<p style="color: white;">Here you can add descriptions of your products/services etc. You can also add a brief background history of your company and other info you think is relevant.</p>
+    	</div>
 		</div>
+		</div>
+		
 	</section> <!--END OF SECTION 1 Company Details--------------------------------------------------------->
 
 	<section style="height: 1px;"></section>
@@ -197,11 +212,11 @@ h1, p {
 		<div>
 			<div>
 				<div style="color: white; text-align: center; background-color: dimgrey;">
-	    		<h1 style="font-size:40px; padding-top: 10px; height: ; color: black;">Add Images of your products</h1>
+	    		<h1 style="font-size:20px; padding-top: 10px; height: ; color: black;">Add Images of your products</h1>
 	    		<p style="color: black;">You can also add animation to your images like below, the images shake when you hover over them...</p>
 			</div>
 	  		
-	    	<div class="div-content">
+	    	<div class="div-content" class="column">
 	    		<div class="card" class="shop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 160px;
   margin: auto;
@@ -274,7 +289,7 @@ h1, p {
 	<section id="contact-details" id="#contact-details">
 		<div>
 	  		<div style="color: white; text-align: center; background-color: dimgrey;">
-	    		<h1 style="font-size:40px; padding-top: 10px; height: ; color: black;">Contact Us</h1>
+	    		<h1 style="font-size:20px; padding-top: 10px; height: ; color: black;">Contact Us</h1>
 	    		<p style="color: black;">Add your Company address, phone number, email address etc... </p>
 	    	</div>
 	    	<div>
