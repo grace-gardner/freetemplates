@@ -107,15 +107,7 @@ h1, p {
 	color: black;
 }
 
-@media screen and (max-width: 1000px){
-	.column {
-	    -ms-flex: 100%;
-	    flex: 100%;
-	    max-width: 100%;
-	    float: left;
-	    display: block;
-  }
-}
+
 
 .footer-menu a{
 	text-decoration: none; 
@@ -163,6 +155,36 @@ h1, p {
 	}
 }
 
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1024) {
+	.column{
+		width: 60px;
+	}
+	.shop{
+		width: 60px;
+	}
+    
+} /* BREAK */
+
+@media only screen and (max-width: 768) {
+	.column{
+		width: 60px;
+	}
+	.shop{
+		width: 60px;
+	}
+    
+} /* BREAK */
+
+@media only screen and (max-width: 305px) {
+	.column{
+		float: left;
+		display: block;
+	}
+	
+    
+} /* BREAK */
 
 
 
@@ -197,8 +219,8 @@ h1, p {
   		<div class="div-content" style="color: white; text-align: center;">
     		<h2 style="font-size:40px">Add details about your Company</h2>
     	</div>
-    	<div class="div-content">
-    		<p style="color: white;">Here you can add descriptions of your products/services etc. You can also add a brief background history of your company and other info you think is relevant.</p>
+    	<div class="div-content" style="color: white; text-align: center;">
+    		<p style="color: white; padding-left: 5px; padding-right: 5px;">Here you can add descriptions of your products/services etc. You can also add a brief background history of your company and other info you think is relevant.</p>
     	</div>
 		</div>
 		</div>
@@ -216,9 +238,10 @@ h1, p {
 	    		<p style="color: black;">You can also add animation to your images like below, the images shake when you hover over them...</p>
 			</div>
 	  		
-	    	<div class="div-content" class="column">
-	    		<div class="card" class="shop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 160px;
+	    	<div class="div-content">
+	    		<div class="column">
+	    			<div class="card" class="shop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 160px;
   margin: auto;
   text-align: center;
   font-family: arial; padding: 15px; display: ;">
@@ -238,7 +261,7 @@ h1, p {
   font-size: 18px;">Add to Cart</button></p>
   				</div>
   				<div class="card" class="shop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 160px;
+  width: 160px;
   margin: auto;
   text-align: center;
   font-family: arial; padding: 15px; display: ;">
@@ -257,7 +280,7 @@ h1, p {
   width: 100%;
   font-size: 18px;">Add to Cart</button></p></div>
   				<div class="card" class="shop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 160px;
+  width: 160px;
   margin: auto;
   text-align: center;
   font-family: arial; padding: 15px; display: ;">
@@ -277,6 +300,9 @@ h1, p {
   font-size: 18px;">Add to Cart</button></p>
   				</div>
   			</div>
+	    			
+	    		</div>
+	    		
 
 	    		
 	    	
